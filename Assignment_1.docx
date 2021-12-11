@@ -1,0 +1,59 @@
+
+
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+
+*       : expression
+'hello' : value
+-87.8   : value
+-       : expression
+/       : expression
++       : expression
+6       : value
+
+2. What is the difference between string and variable? 
+--> string is data type which stores value in form of sequence of characters which are mutable, whereas variable is entity which refered as name for any data container
+
+3. Describe three different data types. : 
+--> 
+     1. int : stores numerical value which came in category of integer among real with no limit
+     2. tuple : it is sequence type data type which store list of heterogenous data sperated by comma
+     3. dictionary : data stored in key-value pair format where value can be accessed using key
+
+4. What is an expression made up of? What do all expressions do?
+--> Expressions are value representitive enitites which are made up of identifiers, literals, and operators.
+    Expressions are used to represent or reuse of values, which are very useful to perform any complex task.
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement? 
+--> statements are used to perform any task using expressions, operators, variables etc.
+    statement never represent any value, but operations can be performed on these values using statements
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1 
+--> bacon will have value = 22, as in 2nd line expression is given but NOT statement, so new value is NOT assigned
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'  =  spamspamspam
+'spam' * 3 = spamspamspam
+-->  
+'spam' + 'spamspam'  =  spamspamspam
+'spam' * 3 = spamspamspam
+
+
+8. Why is eggs a valid variable name while 100 is invalid?
+-->    In python Variable name should start with letter(a-zA-Z) or underscore (_). 
+
+
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value? 
+--> 1. str(value) 
+    2. int(value) 
+    3. float(value)
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+--> As string can be concatinated with string only NOT string
+    It can be fixed using str() function 
+    'I have eaten ' + str(99)+ ' burritos.'
+
+
